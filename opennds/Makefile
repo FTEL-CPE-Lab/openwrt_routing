@@ -1,4 +1,4 @@
- #
+#
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
 #
@@ -7,12 +7,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=opennds
 PKG_FIXUP:=autoreconf
-PKG_VERSION:=7.0.1.1-FPT
+PKG_VERSION:=7.0.1-FPT
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://codeload.github.com/FTEL-CPE-Lab/opennds/tar.gz/v$(PKG_VERSION)?
 PKG_SOURCE:=opennds-$(PKG_VERSION).tar.gz
-PKG_HASH:=319d2c4f3b2c70730dab451fbc6f5adf85a907e483a87d13aaded13dff0280db
+PKG_HASH:=e5c2d99ca47bbe605d74cb1f7bdc7626b2cbb19e258b170c8d85529fb22115f7
 PKG_BUILD_DIR:=$(BUILD_DIR)/openNDS-$(PKG_VERSION)
 
 PKG_MAINTAINER:=Rob White <rob@blue-wave.net>
