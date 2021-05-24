@@ -12,7 +12,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://codeload.github.com/FTEL-CPE-Lab/opennds/tar.gz/v$(PKG_VERSION)?
 PKG_SOURCE:=opennds-$(PKG_VERSION).tar.gz
-PKG_HASH:=e5c2d99ca47bbe605d74cb1f7bdc7626b2cbb19e258b170c8d85529fb22115f7
+PKG_HASH:=7a3286320ec07e9bf0890214f42b168b3be1dd60476a0c057372637ea0ebe1ef
 PKG_BUILD_DIR:=$(BUILD_DIR)/openNDS-$(PKG_VERSION)
 
 PKG_MAINTAINER:=Rob White <rob@blue-wave.net>
